@@ -2,3 +2,5 @@ streamlit
 crewai
 pypdf
 pyairtable
+chromadb==0.3.29
+tiktoken
