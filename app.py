@@ -1,2 +1,4 @@
 import streamlit as st
-from crewai import Crew, Process, Agent, Task
+
+st.title("🚀 CrewAI Streamlit App")
+st.write("This is a basic AI-powered app running on Streamlit.")
