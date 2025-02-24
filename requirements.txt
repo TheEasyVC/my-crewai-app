@@ -1,5 +1,5 @@
 streamlit
-crewai
 pypdf
 pyairtable
 openai
+git+https://github.com/joaomdmoura/crewai.git
