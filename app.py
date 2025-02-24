@@ -1,3 +1,5 @@
+import os
+os.environ["CREWAI_USE_MEMORY"] = "false"  # Prevents ChromaDB errors
 import streamlit as st
 import pypdf
 import os
