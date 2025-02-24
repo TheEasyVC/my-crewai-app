@@ -1,6 +1,6 @@
 import os
-os.environ["CREWAI_USE_MEMORY"] = "false"  # Force-disable ChromaDB
-os.environ["CREWAI_USE_EMBEDDINGS"] = "false"  # Extra safety
+os.environ["CREWAI_USE_MEMORY"] = "false"  # Prevents ChromaDB from loading
+os.environ["CREWAI_USE_EMBEDDINGS"] = "false"  # Ensures no vector database issues
 import streamlit as st
 import pypdf
 import os
